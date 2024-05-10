@@ -1,6 +1,6 @@
 import requests
 
-from abstract import VacanciesAbstract
+from abstract_vacancies import VacanciesAbstract
 
 
 class HeadHunterAPI(VacanciesAbstract):
