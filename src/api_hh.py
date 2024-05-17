@@ -1,7 +1,5 @@
 import requests
-
 from abstract_vacancies import VacanciesAbstract
-
 
 class HeadHunterAPI(VacanciesAbstract):
     """Класс работающий с API hh.ru"""

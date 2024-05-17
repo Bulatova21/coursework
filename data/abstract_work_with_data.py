@@ -8,7 +8,7 @@ class WorkInVacancies(ABC):
         pass
 
     @abstractmethod
-    def add_vacancies(self):
+    def add_vacancy(self):
         """Абстрактный метод для добавления вакансии в список вакансий"""
         pass
 
@@ -18,6 +18,6 @@ class WorkInVacancies(ABC):
         pass
 
     @abstractmethod
-    def delete_vacancies(self):
+    def delete_vacancy(self):
         """Абстрактный метод для удаления вакансии из файловой структуры"""
         pass
